@@ -569,7 +569,7 @@ public class WifiStateMachine extends StateMachine implements WifiNative.WifiPno
 
     private WifiScanner mWifiScanner;
 
-    private int mConnectionRequests = 0;
+    private int mConnectionRequests = 1;
     private WifiNetworkFactory mNetworkFactory;
     private UntrustedWifiNetworkFactory mUntrustedNetworkFactory;
     private WifiNetworkAgent mNetworkAgent;
